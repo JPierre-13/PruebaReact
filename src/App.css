@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+button{
+    
+  background: none;
+  color:rgb(97, 23, 235);
+  border: 2px dashed;
+  padding: 1em 2em;
+  font-size: 1em;  
+  transition: color 0.25s, transform 0.25s,  box-shadow 0.25s, border-color 0.25s; 
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+h3{
+  font-family: 'Dancing Script', cursive;
+  color:rgb(66, 27, 206);    
+}
+center{
+  font-family: 'Dancing Script', cursive;
+  color:rgb(27, 206, 182); 
+}

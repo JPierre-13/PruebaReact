@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button{
+    
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+h3{
+  font-family: 'Dancing Script';
+  color:rgb(249, 248, 252);    
+}
+table {
+  width: 100%;
+  border: 2px solid #999;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 0 0 1em 0;
+  caption-side: top;
+}
+caption, td, th {
+  padding: 0.4em;
+}
+th, td {
+  border-bottom: 2px solid rgb(248, 248, 248);
+  width: 20%;
+  color:rgb(252, 251, 255);  
+}
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+center{  
+  height: 100vh;
+  background-size: cover;  
+  background-color: #2e597e;
+  display: flex;
+  flex-direction:row;   
+  
+}
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+    background-size: cover;
+    background-position:center;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
+}
